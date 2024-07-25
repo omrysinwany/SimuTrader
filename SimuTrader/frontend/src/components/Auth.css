@@ -1,0 +1,17 @@
+.auth-card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.auth-input {
+  border-radius: 0.25rem;
+}
+
+.auth-btn {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-danger {
+  color: #dc3545;
+}

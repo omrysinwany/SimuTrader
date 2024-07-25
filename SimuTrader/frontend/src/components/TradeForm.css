@@ -1,0 +1,60 @@
+.trade-form-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff; /* רקע כהה שחור */
+  color: #4d4d4d; /* צבע טקסט לבן */
+}
+
+.trade-form-input {
+  background-color: #ffffff; /* רקע כהה שחור */
+  color: #4d4d4d; /* צבע טקסט לבן */
+  border: 1px solid #444;
+}
+
+.trade-form-input::placeholder {
+  color: #888;
+}
+
+.trade-form-slider {
+  flex: 1;
+  cursor: pointer;
+  --accent-color: #00bfae; /* צבע של הסליידר עבור קנייה */
+}
+
+.trade-form-slider.buy-slider {
+  accent-color: #129b40; /* צבע של הסליידר עבור קנייה */
+}
+
+.trade-form-slider.sell-slider {
+  accent-color: #f03e3e; /* צבע של הסליידר עבור מכירה */
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.dark-mode .trade-form-card {
+  background-color: #1c1c1c;
+  color: #e1e1e1;
+}
+
+.dark-mode .trade-form-input {
+  background-color: #2b2b2b;
+  color: #e1e1e1;
+}
+
+.dark-mode .trade-form-slider {
+  accent-color: #00bfae;
+}
+
+.dark-mode .trade-form-slider.buy-slider {
+  accent-color: #129b40;
+}
+
+.dark-mode .trade-form-slider.sell-slider {
+  accent-color: #f03e3e;
+}

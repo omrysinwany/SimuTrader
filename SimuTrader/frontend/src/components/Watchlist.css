@@ -1,0 +1,23 @@
+/* Watchlist.css */
+
+.watchlist {
+  padding: 10px;
+}
+
+.watchlist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.watchlist-item span {
+  cursor: pointer;
+}
+
+.watchlist-item span:hover {
+  text-decoration: underline;
+}
+
+.tradingview-widget-container {
+  margin-bottom: 10px;
+}

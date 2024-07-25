@@ -1,0 +1,26 @@
+.dashboard-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff; /* רקע כהה שחור */
+  color: #4d4d4d; /* צבע טקסט לבן */
+}
+
+.dashboard-input {
+  background-color: #ffffff; /* רקע כהה שחור */
+  color: #e1e1e1; /* צבע טקסט לבן */
+  border: 1px solid #444;
+}
+
+.dashboard-input::placeholder {
+  color: #888;
+}
+
+.dark-mode .dashboard-card {
+  background-color: #1c1c1c;
+  color: #e1e1e1;
+}
+
+.dark-mode .dashboard-input {
+  background-color: #2b2b2b;
+  color: #e1e1e1;
+}

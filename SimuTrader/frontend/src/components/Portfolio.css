@@ -1,0 +1,25 @@
+/* Portfolio.css */
+.portfolio-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-input {
+  background-color: #2b2b2b; /* רקע כהה */
+  color: #e1e1e1; /* צבע טקסט לבן */
+  border: 1px solid #444;
+}
+
+.portfolio-input::placeholder {
+  color: #888;
+}
+
+.theme-dark .portfolio-card {
+  background-color: #1c1c1c;
+  color: #e1e1e1;
+}
+
+.theme-light .portfolio-card {
+  background-color: #ffffff;
+  color: #000000;
+}
